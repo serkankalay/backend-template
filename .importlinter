@@ -1,0 +1,28 @@
+[importlinter]
+root_packages=
+    cli
+    tests
+    app
+    src
+
+include_external_packages=True
+
+[importlinter:contract:our-layered-architecture]
+name = Our layered architecture
+type = layers
+layers =
+    cli
+    tests
+    app
+    src
+
+[importlinter:contract:no-faulty-dependency]
+name = Nothing should depend on cli or tests
+type = forbidden
+source_modules =
+    app
+    src
+forbidden_modules =
+    cli
+    devtools
+    tests

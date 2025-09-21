@@ -1,0 +1,32 @@
+[2025-09-21 15:55:07][INFO][uvicorn.error] Started server process [54325]
+[2025-09-21 15:55:07][INFO][uvicorn.error] Waiting for application startup.
+[2025-09-21 15:55:07][INFO][uvicorn.error] Application startup complete.
+[2025-09-21 15:55:24][INFO][uvicorn.error] Shutting down
+[2025-09-21 15:55:24][INFO][uvicorn.error] Waiting for application shutdown.
+[2025-09-21 15:55:24][INFO][uvicorn.error] Application shutdown complete.
+[2025-09-21 15:55:24][INFO][uvicorn.error] Finished server process [54325]
+[2025-09-21 15:55:27][INFO][uvicorn.error] Started server process [54512]
+[2025-09-21 15:55:27][INFO][uvicorn.error] Waiting for application startup.
+[2025-09-21 15:55:27][INFO][uvicorn.error] Application startup complete.
+[2025-09-21 15:55:30][INFO][uvicorn.access] 127.0.0.1:61013 - "GET / HTTP/1.1" 404
+[2025-09-21 15:55:30][INFO][uvicorn.access] 127.0.0.1:61014 - "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404
+[2025-09-21 15:55:30][INFO][uvicorn.access] 127.0.0.1:61013 - "GET /favicon.ico HTTP/1.1" 404
+[2025-09-21 15:55:31][INFO][uvicorn.access] 127.0.0.1:61014 - "GET /apple-touch-icon.png HTTP/1.1" 404
+[2025-09-21 15:55:32][INFO][uvicorn.access] 127.0.0.1:61013 - "GET / HTTP/1.1" 404
+[2025-09-21 15:55:33][INFO][uvicorn.access] 127.0.0.1:61013 - "GET / HTTP/1.1" 404
+[2025-09-21 15:55:34][INFO][uvicorn.access] 127.0.0.1:61013 - "GET /api/docs HTTP/1.1" 200
+[2025-09-21 15:55:35][INFO][uvicorn.access] 127.0.0.1:61013 - "GET /api/openapi.json HTTP/1.1" 200
+[2025-09-21 15:55:37][INFO][uvicorn.access] 127.0.0.1:61013 - "GET /api/docs HTTP/1.1" 200
+[2025-09-21 15:55:37][INFO][uvicorn.access] 127.0.0.1:61013 - "GET /api/openapi.json HTTP/1.1" 200
+[2025-09-21 15:55:44][INFO][uvicorn.access] 127.0.0.1:61019 - "GET /api/v1/health-check HTTP/1.1" 204
+[2025-09-21 15:56:12][INFO][uvicorn.error] Shutting down
+[2025-09-21 15:56:12][INFO][uvicorn.error] Waiting for application shutdown.
+[2025-09-21 15:56:12][INFO][uvicorn.error] Application shutdown complete.
+[2025-09-21 15:56:12][INFO][uvicorn.error] Finished server process [54512]
+[2025-09-21 15:56:13][INFO][uvicorn.error] Started server process [54741]
+[2025-09-21 15:56:13][INFO][uvicorn.error] Waiting for application startup.
+[2025-09-21 15:56:13][INFO][uvicorn.error] Application startup complete.
+[2025-09-21 20:59:14][INFO][uvicorn.error] Shutting down
+[2025-09-21 20:59:14][INFO][uvicorn.error] Waiting for application shutdown.
+[2025-09-21 20:59:14][INFO][uvicorn.error] Application shutdown complete.
+[2025-09-21 20:59:14][INFO][uvicorn.error] Finished server process [54741]
