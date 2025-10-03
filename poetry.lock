@@ -2406,4 +2406,4 @@ tzdata = "*"
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12.1,<4.0"
-content-hash = "3222cefe0336c603db5ed9a31a11ffdfb4654ae2d519f26c28db0351c98c66e7"
+content-hash = "c52af8062db0f572673fd064efda599d1ac822ed47dc9b9232027c87b13a72cf"
