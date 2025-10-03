@@ -36,7 +36,7 @@ test:
 migrate:
 	poetry run alembic upgrade head
 
-futlog:
+myapp:
 	poetry run uvicorn app.api.app:app --reload --port 6001
 
 task-worker:
