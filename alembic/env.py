@@ -12,7 +12,7 @@ from src.settings import Settings
 config = context.config
 config.set_main_option(
     "sqlalchemy.url",
-    "postgresql+psycopg2://praline_db_user@localhost/praline"
+    Settings.database.pg_dsn.unicode_string(),
 )
 
 # Interpret the config file for Python logging.
