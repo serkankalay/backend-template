@@ -8,6 +8,7 @@ from typing import Annotated
 import jwt
 from fastapi import APIRouter, Cookie, Depends, Form, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
+from jwt import ExpiredSignatureError
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
 from starlette.responses import JSONResponse
