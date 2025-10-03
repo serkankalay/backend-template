@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app import VERSION
 from app.api.v1.health_check import api as api_health_check
+from app.api.v1.security.authentication import api as api_authentication
 from src.logging.main import init_logging
 
 init_logging("config/logging_backend.yml")
@@ -25,6 +26,7 @@ app = FastAPI(
 )
 
 app.include_router(api_health_check, prefix="/api/v1")
+app.include_router(api_authentication, prefix="/api/v1")
 
 app.add_middleware(
     CORSMiddleware,

@@ -6,4 +6,4 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-VERSION = importlib.metadata.version("futlog-backend")
+VERSION = importlib.metadata.version("backend-template")
