@@ -11,7 +11,7 @@ from alembic import op
 import sqlalchemy as sa
 ${imports if imports else ""}
 
-from alembic_multi_tenancy.tenant import for_each_tenant
+from alembic.tenant import for_each_tenant
 
 # revision identifiers, used by Alembic.
 revision: str = ${repr(up_revision)}

@@ -80,3 +80,6 @@ disable_error_code = "import-untyped"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+myapp = "cli.cli:myapp"

@@ -16,3 +16,12 @@ def get(session: Session) -> list[Tenant]:
         .filter(Tenant.active.is_(True))
         .all()
     )
+
+
+def try_get(session: Session, tenant_name: str) -> Tenant | None:
+    return (
+        session.query(Tenant)
+        .filter(Tenant.filter_deleted_out())
+        .filter(Tenant.name == tenant_name)
+        .one_or_none()
+    )

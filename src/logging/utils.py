@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import inspect
 import logging
+import traceback
 from functools import wraps
 from typing import Any, Callable
 
@@ -85,3 +86,14 @@ def logged(func: Callable) -> Callable:
         return result
 
     return wrapper
+
+
+def format_exception_no_stacktraces(e: Exception) -> str:
+    detail = (
+        str(e)
+        + "\n"
+        + " ".join(
+            traceback.format_exception(type(e), e, e.__traceback__, limit=0)
+        )
+    )
+    return detail
